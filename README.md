@@ -18,6 +18,10 @@ There were 6161 images in total. After removing invalid and spliting into train/
 ![alt text](./Images/12-converse.jpg 'Converse')
 ![alt text](./Images/180-newbalance.jpg 'New Balance')
 
+##### Data prep
+
+After downloading the dataset, its zipped archive was unpacked into _data_ directory and then used in the 1st Jupyter notebook.
+
 ### Convnet
 
 ##### Architecture
