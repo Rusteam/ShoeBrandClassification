@@ -4,12 +4,13 @@ _Jan 5, 2018_
 
 ``Goal:`` This classification model was build simply to learn how pyTorch works.
 
-``Result:`` Best result was achieved using a pre-trained DenseNet121 with a modified fully-connected layer. Top-1 accuracy after training for {} epochs is **{}%** (although with noticeable overfit). The training took {} minutes on 1 Tesla P100 gpu.
+``Result:`` Best result was achieved using a pre-trained DenseNet121 with a modified fully-connected layer. Top-1 accuracy after training for 10 epochs is **86%** (although with noticeable overfit). The training took 55 minutes on 1 Tesla P100 gpu.
 
 ### Data
 
 Dataset consists of real shoe images for 14 brand categories.
 There were 6161 images in total. After removing invalid and spliting into train/test folders, there are 5722 and 413 images, respectively.
+
 [Download link](https://drive.google.com/file/d/0B05wqMLeCbG-blZpVTlEZWQ3NWs/view)
 
 ##### Image samples
